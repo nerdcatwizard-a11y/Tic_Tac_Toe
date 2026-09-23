@@ -1,16 +1,16 @@
-# React + Vite
+Hi! Credit to https://react.dev/learn/tutorial-tic-tac-toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Overview: My project is a simple tic tac toe game
+How to run it: in the terminal type npm install, npm install tailwindcss @tailwindcss/vite
+                then npm run dev
+                It will then give you a local host url. Post that into a browser, and you can play!
+My contirubtion: I installed tailwind and learned a little bit of it to change the theme. I used this tutorial for all of that 
+https://www.youtube.com/watch?v=TcyawDfECnA
+I also added a restart button, a way to see ties, and a score counter!
+What I learned: I was a complete beginner walking into this, so I learned a ton! Mostly I learned syntax for javascript, and also how to set up and run a react page.
+But I also tried to figure out how to implement the tie detector and the score counter. Those I really struggled with. I orginally had the logic for them in different places, like in functions. I had to look up what to do, and I in all honesty still don't fully understand why they belong in the places I put them, but I understand the underlying logic they run on! And outside of looking up syntax on how to write the logic, I was able to figure out the logic myself!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Refrences:
+https://www.youtube.com/watch?v=TcyawDfECnA
+https://react.dev/learn/tutorial-tic-tac-toe
+Lots and lots of google for syntax
